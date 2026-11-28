@@ -1,0 +1,61 @@
+
+
+Test 1: Park a Car
+Input: Option 1, plate JND123
+Expected: Car parked in spot 3
+Actual: Car parked in spot 3
+Status: PASS
+
+Test 2: Duplicate Plate
+Input: Option 1, plate JND123 again
+Expected: This car is already parked.
+Actual: This car is already parked.
+Status: PASS
+
+Test 3: Remove a Car
+Input: Option 2, plate ABC123, 3 hours
+Expected: Car removed from spot 1. Fee: $6
+Actual: [Enter the exact output observed]
+Status: [PASS or FAIL]
+
+Test 4: Unknown Plate
+Input: Option 2, plate UNKNOWN1
+Expected: Car not found.
+Actual: [Enter the output]
+Status: [PASS or FAIL]
+
+Test 5: View Parking Spaces
+Input: Option 3
+Expected: All 10 spaces displayed with correct availability
+Actual: [Enter the output]
+Status: [PASS or FAIL]
+
+Test 6: Parking Statistics
+Input: Option 4
+Expected: Correct occupied spaces, free spaces, occupancy percentage and earnings
+Actual: [Enter the actual numbers]
+Status: [PASS or FAIL]
+
+Test 7: Save and Load
+Input: Options 5 and 6
+Expected: Parking information saved and restored
+Actual: [Enter the result]
+Status: [PASS or FAIL]
+
+Test 8: Missing File
+Input: Option 6 when parking_data.txt does not exist
+Expected: A missing-file message without crashing
+Actual: [Enter the result]
+Status: [PASS or FAIL]
+
+Test 9: Full Parking Lot
+Input: Attempt to park another car after all 10 spaces are occupied
+Expected: Parking lot is full.
+Actual: [Enter the result]
+Status: [PASS or FAIL]
+
+Test 10: Empty Parking Lot
+Input: Option 4 when no cars are parked
+Expected: 0 occupied, 10 available, 0% occupancy
+Actual: [Enter the result]
+Status: [PASS or FAIL]
